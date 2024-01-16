@@ -1,0 +1,10 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "target": "ES2021",
+    "outDir": "./dist"
+  },
+  "exclude": ["dist", "node_modules"]
+}

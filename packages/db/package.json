@@ -1,0 +1,28 @@
+{
+  "name": "@repo/db",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "typecheck": "tsc --noEmit --incremental --watch",
+    "db:check": "drizzle-kit check:pg",
+    "db:generate": "drizzle-kit generate:pg",
+    "db:migrate": "ts-node ./migrate.ts"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "drizzle-kit": "^0.20.12",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.29.3",
+    "postgres": "^3.4.3"
+  }
+}

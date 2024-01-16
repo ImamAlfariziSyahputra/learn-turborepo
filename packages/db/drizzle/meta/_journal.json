@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1705387370058,
+      "tag": "0000_flaky_changeling",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1705388190547,
+      "tag": "0001_clammy_fabian_cortez",
+      "breakpoints": true
+    }
+  ]
+}
