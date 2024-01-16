@@ -7,10 +7,11 @@
     "server.js"
   ],
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.17.7",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
-    "@vercel/style-guide": "^4.0.2",
     "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "14.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-turbo": "^1.10.12",
     "eslint-import-resolver-typescript": "^3.6.1",

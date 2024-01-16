@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
 
+import { relations } from 'drizzle-orm';
 import {
-  pgTable,
+  boolean,
   integer,
+  pgTable,
   serial,
   text,
   timestamp,
-  boolean,
 } from 'drizzle-orm/pg-core';
-import { relations } from 'drizzle-orm';
 
 export const users = pgTable('users', {
   id: serial('id').primaryKey(),
